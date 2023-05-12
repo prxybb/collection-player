@@ -63,6 +63,7 @@ function hideIndex(square) {
 async function loadSongAndCover(index, toggle) {
   if (!player) {
     player = new Tone.Player().toDestination();
+    player.loop = true;
   } else if (player.state === 'started') {
     player.stop();
   }
