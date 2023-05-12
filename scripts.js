@@ -1,4 +1,4 @@
-const folderPath = 'collection-A/';
+const folderPath = 'collection-B/';
 const audioPath = folderPath + 'audio/';
 const coverPath = folderPath + 'covers/';
 const batchPrefix = 'batch-C_';
